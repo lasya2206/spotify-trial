@@ -53,6 +53,7 @@ nav ul li{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+
    
 }
 .icons{
@@ -60,6 +61,7 @@ nav ul li{
 }
 .icons i{
     cursor: pointer;
+    flex-wrap: wrap;
 }
 #myProgressBar{
     width: 80vw;
