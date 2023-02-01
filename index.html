@@ -25,83 +25,86 @@
         <div>
             <h2>Song List</h2>
             <div class="songItem">
-               
-                <img src="./Covers/kyu mai jagu.jpg" alt="0" >
-                <span>Kyu Main Jaagu</span>
-                <span class="songlistplay">
-                    <span class="timestamp">05:44<i class="fa-sharp fa-solid fa-circle-play"></i></span>
-                   
-                </span>
-            </div>
-            <div class="songItem">
-                <img src="./Covers/get-up-jawani.jpg" alt="1" >
-                <span>GetUp Jawani</span>
-                <span class="songlistplay">
-                    <span class="timestamp">03:33<i class="fa-sharp fa-solid fa-circle-play"></i></span>
-                   
-                </span>
-            </div>
-            <div class="songItem">
                 <img src="./Covers/angreji beat.jpg" alt="2" >
-                <span>Angreji Beat</span>
+                <span class="SongName">Angreji Beat</span>
                 <span class="songlistplay">
-                    <span class="timestamp">03:30<i class="fa-sharp fa-solid fa-circle-play"></i></span>
+                    <span class="timestamp">03:30</span>
                    
                 </span>
             </div>
             <div class="songItem">
                 <img src="./Covers/Barbaadiyan.jpg" alt="3" >
-                <span>Barbaadiyan</span>
+                <span class="SongName">Barbaadiyan</span>
                 <span class="songlistplay">
-                    <span class="timestamp">03:50<i class="fa-sharp fa-solid fa-circle-play"></i></span>
+                    <span class="timestamp">03:50</span>
                    
                 </span>
             </div>
             <div class="songItem">
                 <img src="./Covers/Channa Ve.jpg" alt="4" >
-                <span>Channa Ve</span>
+                <span class="SongName">Channa Ve</span>
                 <span class="songlistplay">
-                    <span class="timestamp">02:59<i class="fa-sharp fa-solid fa-circle-play"></i></span>
+                    <span class="timestamp">02:59</span>
                    
                 </span>
             </div>
             <div class="songItem">
                 <img src="./Covers/Dope-Shope.jpg" alt="5" >
-                <span>Dope Shope</span>
+                <span class="SongName">Dope Shope</span>
                 <span class="songlistplay">
-                    <span class="timestamp">03:08<i class="fa-sharp fa-solid fa-circle-play"></i></span>
+                    <span class="timestamp">03:08</span>
                    
                 </span>
             </div>
             <div class="songItem">
-                <img src="./Covers/Hare-Krishna-Hare-Rama.jpg" alt="6" >
-                <span>Hare Krishna Hare Rama</span>
+                <img src="./Covers/get-up-jawani.jpg" alt="1" >
+                <span class="SongName">GetUp Jawani</span>
                 <span class="songlistplay">
-                    <span class="timestamp">04:59<i class="fa-sharp fa-solid fa-circle-play"></i></span>
+                    <span class="timestamp">03:33</span>
                    
                 </span>
             </div>
-            <div class="songItem">
-                <img src="./Covers/Hum Dum.jpg" alt="7" >
-                <span>Hum Dum</span>
+           
+                <div class="songItem">
+                    <img src="./Covers/Hare-Krishna-Hare-Rama.jpg" alt="6" >
+                    <span class="SongName">Hare Krishna Hare Rama</span>
+                    <span class="songlistplay">
+                        <span class="timestamp">04:59</span>
+                       
+                    </span>
+                </div>
+                <div class="songItem">
+                    <img src="./Covers/Hum Dum.jpg" alt="7" >
+                    <span class="SongName">Hum Dum</span>
+                    <span class="songlistplay">
+                        <span class="timestamp">05:05</span>
+                       
+                    </span>
+                </div>
+
+                <div class="songItem">
+                <img src="./Covers/kyu mai jagu.jpg" alt="0" >
+                <span class="SongName">Kyu Main Jaagu</span>
                 <span class="songlistplay">
-                    <span class="timestamp">05:05<i class="fa-sharp fa-solid fa-circle-play"></i></span>
+                    <span class="timestamp">05:44</span>
                    
                 </span>
-            </div>
+            </div>   
+            
             <div class="songItem">
                 <img src="./Covers/Mere-Ghar-Ram-Aaye-Hain.jpg" alt="8" >
-                <span>Mere Ghar Ram Aaye Hain</span>
+                <span class="SongName">Mere Ghar Ram Aaye Hain</span>
                 <span class="songlistplay">
-                    <span class="timestamp">04:00<i class="fa-sharp fa-solid fa-circle-play"></i></span>
+                    <span class="timestamp">04:00</span>
                    
                 </span>
             </div>
+
             <div class="songItem">
                 <img src="./Covers/Shiddat.jpg" alt="9" >
-                <span>Shiddat</span>
+                <span class="SongName">Shiddat</span>
                 <span class="songlistplay">
-                    <span class="timestamp">03:50<i class="fa-sharp fa-solid fa-circle-play"></i></span>
+                    <span class="timestamp">03:50</span>
                    
                 </span>
             </div>
@@ -112,14 +115,14 @@
     <div class="bottom">
         <input type="range" name="range" id="myProgressBar" min="0" max="100">
         <div class="icons">
-            <i class="fa-solid fa-3x fa-step-backward"></i>
+            <i class="fa-solid fa-3x fa-step-backward" id="previous"></i>
             <i class="fa-sharp fa-3x fa-solid fa-circle-play" id="masterPlay"></i>
-            <i class="fa-solid fa-3x fa-step-forward"></i>
+            <i class="fa-solid fa-3x fa-step-forward" id="next"></i>
         </div>
         
    
     <div class="songInfo">
-        <img src="./playing.gif" width="42px" alt="playing">
+        <img src="./playing.gif" width="42px" alt="playing" id="gif"> <span id="masterSongName">Angreji Beat</span>
     </div>
 </div>
     <script src="https://kit.fontawesome.com/496946982c.js" crossorigin="anonymous"></script>
